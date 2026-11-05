@@ -10,7 +10,7 @@ export default function Products() {
 
     return (
         <ul>
-           {arr.map(item => <li>{item}</li>)} 
+           {arr.map(item => <li key={item.id}>{item.name}</li>)} 
         </ul>
     )
 }

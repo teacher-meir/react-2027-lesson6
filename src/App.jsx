@@ -2,6 +2,7 @@ import { Link, NavLink, Route, Routes } from 'react-router'
 import './App.css'
 import About from './pages/About'
 import Home from './pages/Home'
+import AddProduct from './pages/AddForm'
 
 function App() {
   // SPA - Single Page Application
@@ -36,6 +37,7 @@ function App() {
         <Route path='about1111' element={<About />} />
         <Route path='list' element={<h1>my list</h1>} />
       </Routes>
+      <AddProduct />
     </>
   )
 }

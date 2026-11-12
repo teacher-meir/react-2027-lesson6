@@ -33,6 +33,8 @@ export default function Home() {
 
   return (
     <div>
+      {/* controlled - onChange */}
+      {/* uncontrolled form - action, useRef */}
       {/* action - לא מרענן עמוד ומרוקן טופס */}
       <form action={save} style={{ display: 'flex', flexDirection: 'column' }}>
         <label htmlFor="username">username</label>

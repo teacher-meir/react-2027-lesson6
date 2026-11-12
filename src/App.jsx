@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from 'react-router'
+import { Link, NavLink, Route, Routes } from 'react-router'
 import './App.css'
 import About from './pages/About'
 import Home from './pages/Home'
@@ -21,9 +21,9 @@ function App() {
       <nav>
         {/* <a href="/">הבית</a>
             <a href="about">אודות</a> */}
-        <Link to='/'>🏡</Link> | 
-        <Link to='about1111'>אודות</Link> | 
-        <Link to='list'>מוצרים</Link>
+        <NavLink to='/'>🏡</NavLink> | 
+        <NavLink to='about1111'>אודות</NavLink> | 
+        <NavLink to='list'>מוצרים</NavLink>
       </nav>
       <hr />
 
